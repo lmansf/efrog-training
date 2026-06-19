@@ -1,0 +1,9 @@
+# Dependencies for the eFrog RL post-training pipeline (post-training/train_rl.py).
+# These are a subset of the repo-root requirements.txt, pinned here so the
+# post-training pipeline can be installed standalone.
+torch>=2.1
+onnx>=1.15
+onnx2torch>=1.5
+onnxruntime>=1.17
+numpy>=1.24
+pandas>=2.0

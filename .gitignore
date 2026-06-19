@@ -2,3 +2,8 @@ data/
 artifacts/
 .ipynb_checkpoints/
 __pycache__/
+
+# RL post-training generated artifacts (run train_rl.py to regenerate)
+post-training/_smoke/
+post-training/*.onnx
+.venv/
